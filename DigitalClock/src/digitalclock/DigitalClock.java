@@ -20,7 +20,7 @@ public class DigitalClock extends JFrame {
 		jlabClock.setForeground(Color.WHITE);
 		
 		add(jlabClock);
-		setSize(700, 100);
+		setSize(715, 105);
 		setLocationRelativeTo(null);
 		
 		ct = new ClockThread(this);
